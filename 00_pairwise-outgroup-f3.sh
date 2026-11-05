@@ -7,7 +7,7 @@ echo "Usage: F3-DIST [--input|-i] <path/to/dataset> [--outgroup-o] <outgroup>"
 SCRIPT_DIR=$(dirname -- "$(readlink -f -- "$0")")
 
 # default temp folder
-TEMP_PATH=./f3dist_tmp
+TEMP_PATH=/scratch/lanchier
 
 # parsing the arguments
 while [[ $# -gt 0 ]]; do
